@@ -1,0 +1,7 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -- primero ejecutar esto en la consola
+cd env --te vas a esta direccion 
+cd .\Scripts\  -- entra en esta
+.\activate activa el entorno virtual y ya te devuelves a la raiz del proyecto 
+pip install fastapi esto no lo hagas
+pip install "uvicorn[standard]"  esto no lo hagas
+uvicorn main:app --reload "crear entorno virtual" ejecuta 
